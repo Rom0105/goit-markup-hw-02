@@ -1,0 +1,73 @@
+:root {
+	--black: #212121;
+	--cyan: #2196F3;
+	--grey: #757575;
+	--grey2: rgba(255, 255, 255, 0.6);
+	--white: #ffffff;
+	--violet: #2F303A;
+}
+body {
+	color: var(--grey);
+}
+h1 {
+	color: var(--white);
+}
+h2, h3 {
+	color: var(--black);
+}
+
+/* Шапка */
+.header-nav .logo {
+	color: var(--cyan);
+}
+
+.span-logo {
+	color: var(--black);
+}
+
+.site-nav .link {
+	color: var(--black);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--cyan);
+}
+
+.auth-nav .link {
+	color: var(--grey);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+	color: var(--cyan);
+}
+
+/* Герой */
+.hero {
+	background-color: var(--violet);
+}
+
+.hero-button {
+	background-color: var(--cyan);
+	color: var(--white);
+}
+
+/* Футер */
+.footer {
+	background-color: var(--violet);
+}
+
+.footer .logo {
+	color: var(--cyan);
+}
+
+.footer-span {
+	color: var(--white);
+}
+
+.address .link {
+	color: var(--white);
+}
+
+.footer-link {
+	color: var(--grey2);
+}
