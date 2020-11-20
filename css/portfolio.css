@@ -85,9 +85,13 @@ h2 {
 	line-height: 1.62;
 	letter-spacing: 0.03em;
 }
-
 .nav .link:hover,
 .nav .link:focus {
+	color: var(--white);
+	background-color: var(--cyan);
+}
+
+.nav .current {
 	color: var(--white);
 	background-color: var(--cyan);
 }
